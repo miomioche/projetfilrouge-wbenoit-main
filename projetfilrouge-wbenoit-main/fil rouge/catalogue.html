@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projet with angelique</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/18a8b83caf.js" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="catalogue.css">
+</head>
+<body>
+
+    <!-- start header -->
+    
+    <header id="header">
+        <div class="logo">
+            <a href="#"><img id="lol" src="pic/bulb.png" alt="">Webwares</a>
+        </div>
+        <ul class="navigation">
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="catalogue.html">Produits</a></li>
+            <li><a href="equipe.html">L'équipe</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" onclick="logout()">Se déconnecter</a></li>
+            <li><a href="panier.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+        <div class="bars">
+            <img id="bar" src="pic/menu.png" alt="">
+        </div>
+    </header>
+    
+    <!-- end header -->
+
+    <!-- start home  -->
+    <div class="big-bg" id="home">
+        <div class="bg-content">
+            <div id="welcome-message">
+                <!-- Le message de bienvenue sera affiché ici -->
+            </div>
+            <div id="icons">
+                <!-- Les icônes du panier et de l'utilisateur seront affichées ici -->
+            </div>
+        </div>
+    </div>
+    <!-- end home  -->
+
+    <!-- start second section  -->
+
+
+    <div class="big-collection">
+        <div class="collect-flex">
+            <div class="collect">
+                <div class="image">
+                    <img src="pic/tapis-4.jpg" alt="">
+                </div>
+                <div class="link">
+                    <a href="#tapis">Tapis</a>
+                </div>
+            </div>
+
+            <div class="collect">
+                <div class="image">
+                    <img src="pic/mobilier-3.jpg" alt="">
+                </div>
+                <div class="link">
+                    <a href="#mobilier">Mobilier</a>
+                </div>
+            </div>
+
+            <div class="collect">
+                <div class="image">
+                    <img src="pic/luminaire-2.jpg" alt="">
+                </div>
+                <div class="link">
+                    <a href="#luminaire">Luminaire</a>
+                </div>
+            </div>
+
+            <div class="collect">
+                <div class="image">
+                    <img src="pic/deco-4.jpg" alt="">
+                </div>
+                <div class="link">
+                    <a href="#decoration">Décoration intérieur</a>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    <!-- end second section  -->
+    
+    <!-- start section four  -->
+
+
+    <div class="big-product" id="features">
+        <div class="product-title">
+            <h1>
+                Nos arrivages.
+
+            </h1>
+            <p>
+                Les produits phare du moment
+            </p>
+            <hr>
+        </div>
+        <div class="productcat-flex">
+            
+
+
+            <div class="product-one">
+                <div class="product-image">
+                    <img src="pic/deco-1.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fas fa-shopping-bag"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h4>
+                           Lot de 2 vase styles bois
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <section>49.99€</section>
+                    </div>
+                </div>
+          
+            </div>
+
+
+            <div class="product-one">
+                <div class="product-image">
+                    <img src="pic/luminaire-1.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fas fa-shopping-bag"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h4>
+                            Plafonnier style industriel
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <section>39.99€</section>
+                    </div>
+                </div>
+               
+            </div>
+
+
+            <div class="product-one">
+                <div class="product-image">
+                    <img src="pic/mobilier-5.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fas fa-shopping-bag"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h4>
+                           Luminaire noir
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <section>149.99€</section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-one">
+                <div class="product-image">
+                    <img src="pic/tapis-4.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fas fa-shopping-bag"></i>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h4>
+                            Joli tapis en forme de tête d'elephant styles crochet
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <section>19.99€</section>
+                    </div>
+                </div>
+                
+            </div>
+
+            
+        </div>
+    </div>
+
+<!-- CODE ANGELIQUE -->
+
+<!-- barre de recherche  -->
+
+
+<label for="site-search">Rechercher sur le site :</label>
+<input type="search" id="category" name="q" />
+<button onclick="search_produits()">Rechercher</button>
+
+<div id="produits-container">
+  <!-- Les résultats de la recherche seront affichés ici -->
+</div>
+<div class="big-cat" id="features">
+    <div class="product-titre">
+
+
+<h1>
+   Notre catalogue
+
+</h1>
+<div class="big-cat" id="decoration">
+<p>
+   Espace Décoration
+</p>
+<hr>
+</div>
+<div class="bigcat">
+
+
+
+<div class="product-cat">
+    <div class="product-img">
+        <img src="pic/deco-1.jpg" alt="">
+        <div class="overlay">
+            <i class="fas fa-shopping-bag"></i>
+            <i class="far fa-heart"></i>
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <h4>
+               Lot de 2 vases style bois <br>
+                          </h4>
+            <p>ces deux vases styles bois s'integre dans un interieur <br>
+            contemporain, son design se fait remarquer tres rapidement. <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing <br>
+         Sint commodi itaque facilis omnis perspiciatis quod!</p>
+        </div>
+        <div class="right">
+            <section>19.99€</section>
+        </div>
+    </div>
+   
+</div>
+
+<div class="product-cat">
+    <div class="product-img">
+        <img src="pic/deco-2.jpg" alt="vase">
+        <div class="overlay">
+            <i class="fas fa-shopping-bag"></i>
+            <i class="far fa-heart"></i>
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <h4>
+                vase design
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Officia sequi voluptates enim illum aperiam cupiditate.</p>
+        </div>
+        <div class="right">
+            <section>49.99€</section>
+        </div>
+    </div>
+</div>
+
+
+<div class="product-cat">
+    <div class="product-img">
+        <img src="pic/deco-3.jpg" alt="">
+        <div class="overlay">
+            <i class="fas fa-shopping-bag"></i>
+            <i class="far fa-heart"></i>
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <h4>
+                3 poterie decorative
+            </h4>
+            <p> Lorem ipsum dolor sit  br 
+                amet consectetur adipisicing elit. Veritatis, necessitatibus?</p>
+        </div>
+        <div class="right">
+            <section>119.49€</section>
+        </div>
+    </div>
+    
+</div>
+
+<div class="product-cat">
+    <div class="product-img">
+        <img src="pic/deco-4.jpg" alt="">
+        <div class="overlay">
+            <i class="fas fa-shopping-bag"></i>
+            <i class="far fa-heart"></i>
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <h4>
+                Joli tapis en forme de tête d'elephant styles crochet
+            </h4>
+        </div>
+        <div class="right">
+            <section>19.99€</section>
+        </div>
+    </div>
+    
+</div>
+<div class="product-cat">
+    <div class="product-img">
+        <img src="pic/deco-5.jpg" alt="">
+        <div class="overlay">
+            <i class="fas fa-shopping-bag"></i>
+            <i class="far fa-heart"></i>
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <h4>
+                vase en verre souffle bleu.
+            </h4>
+            <p>Lorem ipsum dolor <br>sit amet consectetur adipisicing elit. Magni, necessitatibus.</p>
+        </div>
+        <div class="right">
+            <section>189.99€</section>
+        </div>
+    </div>
+
+</div>
+
+</div>
+</div>
+  
+<!-- tapis -->
+<div class="big-cat" id="tapis">
+<p>
+    Espace tapis
+ </p>
+ <hr>
+ </div>
+ <div class="bigcat">
+ 
+ 
+ 
+ <div class="product-cat">
+     <div class="product-img">
+         <img src="pic/tapis-1.jpg" alt="">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                tapis imitation peau de bete. <br>
+                           </h4>
+             <p>tapis imitation peau de bete. <br>
+         Lorem ipsum dolor sit amet consectetur adipisicing <br>
+          Sint commodi itaque facilis omnis perspiciatis quod!</p>
+         </div>
+         <div class="right">
+             <section>130.00€</section>
+         </div>
+     </div>
+    
+ </div>
+ 
+ <div class="product-cat">
+     <div class="product-img">
+         <img src="pic/tapis-2.jpg" alt="vase">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                Tapis style marocain
+             </h4>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Officia sequi voluptates enim illum aperiam cupiditate.</p>
+         </div>
+         <div class="right">
+             <section>121.49€</section>
+         </div>
+     </div>
+
+ </div>
+ 
+ 
+ <div class="product-cat">
+     <div class="product-img">
+         <img src="pic/tapis-3.jpg" alt="">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                tapis orientale
+             </h4>
+             <p> Lorem ipsum dolor sit  br 
+                 amet consectetur adipisicing elit. Veritatis, necessitatibus?</p>
+         </div>
+         <div class="right">
+             <section>121.49€</section>
+         </div>
+     </div>
+     
+ </div>
+ 
+ <div class="product-cat">
+    <div class="product-img">
+         <img src="pic/tapis-4.jpg" alt="">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                tapis elephant
+             </h4>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="right">
+             <section>99.99€</section>
+         </div>
+     </div>
+
+ </div>
+ <div class="product-cat">
+    <div class="product-img">
+         <img src="pic/tapis-5.jpg" alt="">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                tapis Noir
+             </h4>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="right">
+             <section>59.99</section>
+         </div>
+     </div>
+ 
+ </div>
+ 
+ </div>
+
+
+<!--luminaire -->
+
+<p>
+    Espace Luminaire
+ </p>
+ <hr>
+ </div>
+ <div class="bigcat">
+ 
+ 
+ 
+ <div class="product-cat">
+     <div class="product-img">
+         <img src="pic/luminaire-1.jpg" alt="">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                suspension noire industriel. <br>
+                           </h4>
+             <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing <br>
+          Sint commodi itaque facilis omnis perspiciatis quod!</p>
+         </div>
+         <div class="right">
+             <section>79.79€</section>
+         </div>
+     </div>
+    
+ </div>
+ 
+ <div class="product-cat">
+     <div class="product-img">
+         <img src="pic/luminaire-2.jpg" alt="vase">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                suspension blanche 
+             </h4>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Officia sequi voluptates enim illum aperiam cupiditate.</p>
+         </div>
+         <div class="right">
+             <section>89.99€</section>
+         </div>
+     </div>
+
+ </div>
+ 
+ 
+ <div class="product-cat">
+     <div class="product-img">
+         <img src="pic/luminaire-3.jpg" alt="">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                suspencion style bois
+             </h4>
+             <p> Lorem ipsum dolor sit  br 
+                 amet consectetur adipisicing elit. Veritatis, necessitatibus?</p>
+         </div>
+         <div class="right">
+             <section>51.99€</section>
+         </div>
+     </div>
+     
+ </div>
+ 
+ <div class="product-cat">
+    <div class="product-img">
+         <img src="pic/luminaire-4.jpg" alt="">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                suspencion noir
+             </h4>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="right">
+             <section>121.49€</section>
+         </div>
+     </div>
+
+ </div>
+ <div class="product-cat">
+     <div class="product-img">
+         <img src="pic/luminaire-5.jpg" alt="">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                Applique murale
+             </h4>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="right">
+             <section>39.99</section>
+         </div>
+     </div>
+ 
+ </div>
+ 
+ </div>
+
+ <!--mobilier -->
+ <div class="big-cat" id="mobilier">
+<p>
+    Espace Mobilier
+ </p>
+ <hr>
+ </div>
+ <div class="bigcat">
+ 
+ 
+ 
+ <div class="product-cat">
+     <div class="product-img">
+         <img src="pic/mobilier-1.jpg" alt="">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>Table en bois </h4>
+             <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing <br>
+          Sint commodi itaque facilis omnis perspiciatis quod!</p>
+         </div>
+         <div class="right">
+             <section>199.99€</section>
+         </div>
+     </div>
+    
+ </div>
+ 
+ <div class="product-cat">
+     <div class="product-img">
+         <img src="pic/mobilier-2.jpg" alt="vase">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                etagere
+             </h4>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Officia sequi voluptates enim illum aperiam cupiditate.</p>
+         </div>
+         <div class="right">
+             <section>89.99€</section>
+         </div>
+     </div>
+
+ </div>
+ 
+ 
+ <div class="product-cat">
+     <div class="product-img">
+         <img src="pic/mobilier-3.jpg" alt="">
+         <div class="overlay">
+             <i class="fas fa-shopping-bag"></i>
+             <i class="far fa-heart"></i>
+             <i class="fas fa-search"></i>
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                canapé cuir marron
+             </h4>
+             <p> Lorem ipsum dolor sit  br 
+                 amet consectetur adipisicing elit. Veritatis, necessitatibus?</p>
+         </div>
+         <div class="right">
+             <section>1299.99</section>
+         </div>
+     </div>
+     
+ </div>
+ 
+ <div class="product-cat">
+     <div class="product-img">
+         <img src="pic/mobilier-4.jpg" alt="">
+         
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                canapé en tissu vert
+             </h4>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="right">
+             <section>999.99€</section>
+         </div>
+     </div>
+
+ </div>
+ <div class="product-cat">
+     <div class="product-img">
+         <img src="pic/mobilier-5.jpg" alt="">
+         <div class="overlay">
+            
+         </div>
+     </div>
+     <div class="content">
+         <div class="left">
+             <h4>
+                ensemble table et chaise
+             </h4>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+         </div>
+         <div class="right">
+             <section>499.49€</section>
+         </div>
+     </div>
+ 
+ </div>
+ 
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="bg-team" id="team">
+        <div class="team-title">
+            <section>Rencontrez Notre Équipe </section>
+            <h2>Les fondateurs passionnés qui façonnent notre E-commerce de mobilier pour les professionnels</h2>
+            <hr>
+        </div>
+        <div class="team-flex swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="team-one swiper-slide">
+                    <img src="pic/le pouce.jpg" alt="benoit">
+                    <h4>Benoît Tergemina</h4>
+                </div>
+                <div class="team-one swiper-slide">
+                    <img src="pic/michel.jpg" alt="">
+                    <h4>Didier Mobilart</h4>
+                </div>
+                <div class="team-one swiper-slide">
+                    <img src="pic/received_900907404411587.jpg" alt="angelique">
+                    <h4>Angélique Coquet</h4>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    
+
+    <div class="bg-footer">
+        <div class="footer-flex">
+            <div class="footer1">
+                <h2>ameublements et  décoration</h2>
+                <section>
+                    Nous sommes passionnés par l'alliance entre le design moderne et les principes durables. Notre collection de mobilier et d'articles de décoration écolo allie esthétique contemporaine et responsabilité environnementale. Explorez notre catalogue en ligne, riche en pièces uniques et en accessoires écologiques, soigneusement sélectionnés pour offrir une atmosphère chaleureuse à votre intérieur tout en minimisant l'impact sur la planète.
+                </section>
+            </div>
+            <div class="footer1">
+                <h2>Liens utiles</h2>
+                <li><a href="mention.html">Mentions</a></li>
+                <li><a href="confi.html">Politique de confidentialité</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cookies.html">Cookies</a></li>
+            </div>
+            <div class="footer1">
+                <h2>shopping</h2>
+                <li><a href="produits.html">Produits</a></li>
+                <li><a href="panier.html">panier</a></li>
+                
+            </div>
+            <div class="Contact">
+                <a href="https://Facebook.com/"><i class="fa-brands fa-facebook" style="color: #207178;"></i></a>
+                <a href="https://linkedin.com//"><i class="fa-brands fa-linkedin"style="color: #207178;"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-square-x-twitter"style="color: #207178;"></i></a>
+            </div>
+        </div>
+        <hr>
+        <div class="copy">
+            <section>
+                copyright &copy; WebWares "Didier MOBILART" <span>All Rights Reserved.</span>
+               
+            </section>
+        </div>
+    </div>
+
+    <!-- end footer section  -->
+
+    <!-- start scroll to top  -->
+    
+
+    <div class="top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+
+
+
+    <!-- end scroll to top  -->
+
+   
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+<script src="catalogue.js"></script>
+</html>
